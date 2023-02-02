@@ -936,7 +936,8 @@ typedef struct
 
 	// ticalcs.c
 	TIEXPORT3 const char* TICALL ticalcs_version_get(void);
-	TIEXPORT3 uint32_t    TICALL ticalcs_supported_calcs(void);
+	TIEXPORT3 uint64_t    TICALL ticalcs_supported_calcs(void);
+	TIEXPORT3 uint32_t    TICALL ticalcs_max_calc_function_idx(void);
 
 	TIEXPORT3 CalcHandle* TICALL ticalcs_handle_new(CalcModel model);
 	TIEXPORT3 int         TICALL ticalcs_handle_del(CalcHandle *handle);

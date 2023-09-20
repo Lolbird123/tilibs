@@ -736,7 +736,7 @@ static int slv_bulk_read2(usb_dev_handle *dev, int ep, char *bytes, int size,
 			if ((tv_now.tv_sec > tv_ref.tv_sec) ||
 			    ((tv_now.tv_sec == tv_ref.tv_sec) && (tv_now.tv_usec >= tv_ref.tv_usec)))
 			{
-				waiting = 0;
+				//waiting = 0;
 			}
 		}
 

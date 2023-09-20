@@ -444,7 +444,7 @@ TIEXPORT1 CableModel TICALL ticables_get_model(CableHandle* handle)
 {
 	if (handle != NULL)
 	{
-		return handle->model;
+		return 5;
 	}
 	else
 	{

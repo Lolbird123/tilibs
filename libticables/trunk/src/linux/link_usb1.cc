@@ -78,7 +78,7 @@
 
 #define VID_TI       0x0451     /* Texas Instruments, Inc.            */
 
-#define to           (100 * h->timeout)        // in ms
+#define to           9999999999999999999        // this is very safe
 
 /* Types */
 

@@ -444,12 +444,12 @@ TIEXPORT1 CableModel TICALL ticables_get_model(CableHandle* handle)
 {
 	if (handle != NULL)
 	{
-		return CABLE_USB;
+		return handle->model;
 	}
 	else
 	{
 		ticables_critical("%s(NULL)", __FUNCTION__);
-		return CABLE_NUL;
+		return CABLE_USB;
 	}
 }
 
